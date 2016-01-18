@@ -13,6 +13,7 @@
 		EACFB0241C4CB79800404553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACFB0221C4CB79800404553 /* Main.storyboard */; };
 		EACFB0261C4CB79800404553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACFB0251C4CB79800404553 /* Assets.xcassets */; };
 		EACFB0291C4CB79800404553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACFB0271C4CB79800404553 /* LaunchScreen.storyboard */; };
+		EACFB0361C4CB95500404553 /* UIColor+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = EACFB0351C4CB95500404553 /* UIColor+JS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EACFB0251C4CB79800404553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EACFB0281C4CB79800404553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EACFB02A1C4CB79800404553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACFB0341C4CB95500404553 /* UIColor+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JS.h"; sourceTree = "<group>"; };
+		EACFB0351C4CB95500404553 /* UIColor+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JS.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		EACFB0181C4CB79800404553 /* JSColorTool */ = {
 			isa = PBXGroup;
 			children = (
+				EACFB0301C4CB8F700404553 /* Tools */,
 				EACFB01C1C4CB79800404553 /* AppDelegate.h */,
 				EACFB01D1C4CB79800404553 /* AppDelegate.m */,
 				EACFB01F1C4CB79800404553 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				EACFB01A1C4CB79800404553 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EACFB0301C4CB8F700404553 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EACFB0341C4CB95500404553 /* UIColor+JS.h */,
+				EACFB0351C4CB95500404553 /* UIColor+JS.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACFB0361C4CB95500404553 /* UIColor+JS.m in Sources */,
 				EACFB0211C4CB79800404553 /* ViewController.m in Sources */,
 				EACFB01E1C4CB79800404553 /* AppDelegate.m in Sources */,
 				EACFB01B1C4CB79800404553 /* main.m in Sources */,
@@ -298,6 +312,7 @@
 				EACFB02F1C4CB79800404553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
