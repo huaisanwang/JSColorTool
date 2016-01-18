@@ -29,6 +29,7 @@
 		EACFB02A1C4CB79800404553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EACFB0341C4CB95500404553 /* UIColor+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JS.h"; sourceTree = "<group>"; };
 		EACFB0351C4CB95500404553 /* UIColor+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JS.m"; sourceTree = "<group>"; };
+		EACFB0371C4CBF9B00404553 /* JsColorPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsColorPrefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 				EACFB0251C4CB79800404553 /* Assets.xcassets */,
 				EACFB0271C4CB79800404553 /* LaunchScreen.storyboard */,
 				EACFB02A1C4CB79800404553 /* Info.plist */,
+				EACFB0371C4CBF9B00404553 /* JsColorPrefix.pch */,
 				EACFB0191C4CB79800404553 /* Supporting Files */,
 			);
 			path = JSColorTool;
@@ -275,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = JSColorTool/JsColorPrefix.pch;
 				INFOPLIST_FILE = JSColorTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsonwang.JSColorTool;
@@ -286,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = JSColorTool/JsColorPrefix.pch;
 				INFOPLIST_FILE = JSColorTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsonwang.JSColorTool;

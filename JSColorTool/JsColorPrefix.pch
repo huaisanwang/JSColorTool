@@ -1,0 +1,14 @@
+//
+//  JsColorPrefix.pch
+//  JSColorTool
+//
+//  Created by JsonWang on 16/1/18.
+//  Copyright © 2016年 JsonWang. All rights reserved.
+//
+
+#ifndef JsColorPrefix_pch
+#define JsColorPrefix_pch
+
+#import "UIColor+JS.h"
+
+#endif /* JsColorPrefix_pch */
