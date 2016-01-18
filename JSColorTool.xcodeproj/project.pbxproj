@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACFB01B1C4CB79800404553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACFB01A1C4CB79800404553 /* main.m */; };
+		EACFB01E1C4CB79800404553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACFB01D1C4CB79800404553 /* AppDelegate.m */; };
+		EACFB0211C4CB79800404553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACFB0201C4CB79800404553 /* ViewController.m */; };
+		EACFB0241C4CB79800404553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACFB0221C4CB79800404553 /* Main.storyboard */; };
+		EACFB0261C4CB79800404553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACFB0251C4CB79800404553 /* Assets.xcassets */; };
+		EACFB0291C4CB79800404553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACFB0271C4CB79800404553 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EACFB0161C4CB79800404553 /* JSColorTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSColorTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACFB01A1C4CB79800404553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACFB01C1C4CB79800404553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EACFB01D1C4CB79800404553 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EACFB01F1C4CB79800404553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EACFB0201C4CB79800404553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EACFB0231C4CB79800404553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACFB0251C4CB79800404553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACFB0281C4CB79800404553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EACFB02A1C4CB79800404553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACFB0131C4CB79800404553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACFB00D1C4CB79800404553 = {
+			isa = PBXGroup;
+			children = (
+				EACFB0181C4CB79800404553 /* JSColorTool */,
+				EACFB0171C4CB79800404553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACFB0171C4CB79800404553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACFB0161C4CB79800404553 /* JSColorTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACFB0181C4CB79800404553 /* JSColorTool */ = {
+			isa = PBXGroup;
+			children = (
+				EACFB01C1C4CB79800404553 /* AppDelegate.h */,
+				EACFB01D1C4CB79800404553 /* AppDelegate.m */,
+				EACFB01F1C4CB79800404553 /* ViewController.h */,
+				EACFB0201C4CB79800404553 /* ViewController.m */,
+				EACFB0221C4CB79800404553 /* Main.storyboard */,
+				EACFB0251C4CB79800404553 /* Assets.xcassets */,
+				EACFB0271C4CB79800404553 /* LaunchScreen.storyboard */,
+				EACFB02A1C4CB79800404553 /* Info.plist */,
+				EACFB0191C4CB79800404553 /* Supporting Files */,
+			);
+			path = JSColorTool;
+			sourceTree = "<group>";
+		};
+		EACFB0191C4CB79800404553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACFB01A1C4CB79800404553 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACFB0151C4CB79800404553 /* JSColorTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACFB02D1C4CB79800404553 /* Build configuration list for PBXNativeTarget "JSColorTool" */;
+			buildPhases = (
+				EACFB0121C4CB79800404553 /* Sources */,
+				EACFB0131C4CB79800404553 /* Frameworks */,
+				EACFB0141C4CB79800404553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSColorTool;
+			productName = JSColorTool;
+			productReference = EACFB0161C4CB79800404553 /* JSColorTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACFB00E1C4CB79800404553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JsonWang;
+				TargetAttributes = {
+					EACFB0151C4CB79800404553 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EACFB0111C4CB79800404553 /* Build configuration list for PBXProject "JSColorTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EACFB00D1C4CB79800404553;
+			productRefGroup = EACFB0171C4CB79800404553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACFB0151C4CB79800404553 /* JSColorTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACFB0141C4CB79800404553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACFB0291C4CB79800404553 /* LaunchScreen.storyboard in Resources */,
+				EACFB0261C4CB79800404553 /* Assets.xcassets in Resources */,
+				EACFB0241C4CB79800404553 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACFB0121C4CB79800404553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACFB0211C4CB79800404553 /* ViewController.m in Sources */,
+				EACFB01E1C4CB79800404553 /* AppDelegate.m in Sources */,
+				EACFB01B1C4CB79800404553 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EACFB0221C4CB79800404553 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACFB0231C4CB79800404553 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACFB0271C4CB79800404553 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACFB0281C4CB79800404553 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACFB02B1C4CB79800404553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EACFB02C1C4CB79800404553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACFB02E1C4CB79800404553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSColorTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsonwang.JSColorTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EACFB02F1C4CB79800404553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSColorTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jsonwang.JSColorTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACFB0111C4CB79800404553 /* Build configuration list for PBXProject "JSColorTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACFB02B1C4CB79800404553 /* Debug */,
+				EACFB02C1C4CB79800404553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACFB02D1C4CB79800404553 /* Build configuration list for PBXNativeTarget "JSColorTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACFB02E1C4CB79800404553 /* Debug */,
+				EACFB02F1C4CB79800404553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACFB00E1C4CB79800404553 /* Project object */;
+}
